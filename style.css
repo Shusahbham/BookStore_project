@@ -1,0 +1,51 @@
+body {
+  padding-top: 0px;
+}
+
+/* Carousel styling: full width, 550px height */
+.carousel-item img {
+  width: 700px;
+  height: 550px;
+  object-fit: cover;
+}
+
+/* Smaller Book Ads Cards */
+.card-img-top {
+  height: 120px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.8rem;
+}
+
+/* Star Rating Styles */
+.star-rating {
+  direction: rtl;
+  display: inline-block;
+}
+.star-rating input {
+  display: none;
+}
+.star-rating label {
+  font-size: 1.5em;
+  color: #ddd;
+  cursor: pointer;
+}
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: orange;
+}
+
+/* Font Awesome stars for dashboard rating display */
+.fa-star {
+  color: #ddd;
+}
+.fa-star.checked {
+  color: orange;
+}
